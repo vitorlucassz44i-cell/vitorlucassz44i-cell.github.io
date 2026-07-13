@@ -1,0 +1,17 @@
+a {
+    text-decoration: none;
+}
+a:link {
+    color: rgb(255, 0, 0);
+}
+a:visited {
+    color: rgb(255, 0, 0);
+}
+a:hover {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    background-color: firebrick;
+}
+a:active {
+    color: rgb(255, 0, 0);
+}

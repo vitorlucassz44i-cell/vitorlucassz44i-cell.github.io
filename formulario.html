@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Formulários</title>
+</head>
+<body>
+
+    <form method="get" action="formulario_retorno.html">
+        <label for="txt_nome">Nome:</label>
+        <input type="text" name="txt_nome" id="txt_nome"><br><br>
+
+        <label>Sexo:</label><br>
+        <input type="radio" name="rb_sexo" id="sexo_m" value="M" checked/> 
+        <label for="sexo_m">Masculino</label>
+        
+        <input type="radio" name="rb_sexo" id="sexo_f" value="F"/> 
+        <label for="sexo_f">Feminino</label>
+        
+        <input type="radio" name="rb_sexo" id="sexo_o" value="O"/> 
+        <label for="sexo_o">Outros</label>
+        <br><br>
+
+        <input type="checkbox" name="cb_carro" id="cb_carro" value="S"/>
+        <label for="cb_carro">Tenho Carro Próprio</label>
+        <br><br>
+
+        <label for="sel_uf">UF:</label>
+        <select name="sel_uf" id="sel_uf">
+            <option value="MG">Minas Gerais</option>
+            <option value="RJ">Rio de Janeiro</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+    <br>
+
+    <fieldset>
+        <legend>Aviso</legend>
+        <p>Preencha os dados e clique em enviar.</p>
+    </fieldset>
+
+</body>
+</html>

@@ -1,0 +1,15 @@
+table {
+    border: 1px solid blueviolet;
+    border-spacing: 2px;
+    border-collapse: separate; 
+}
+
+table th {
+    border: 1px solid rgb(12, 186, 230);
+    padding: 8px;
+}
+
+table td {
+    border: 1px solid rgb(214, 12, 221);
+    padding: 8px; 
+}
