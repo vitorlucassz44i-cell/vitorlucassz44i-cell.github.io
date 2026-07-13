@@ -1,0 +1,26 @@
+#coluna01 {
+    background-color: blue;
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    width: 150px;
+    height: 100px;
+}
+
+#coluna02 {
+    background-color: green;
+    position: absolute;
+    top: 120px;
+    left: 360px;
+    width: 150px;
+    height: 100px;
+}
+
+#coluna03 {
+    background-color: yellow;
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    width: 150px;
+    height: 100px;
+}
